@@ -2,4 +2,4 @@
 
 Token=Token1
 
-pass Cloud/GitHub/fredcwells | grep $Token | awk '{print $NF}'
+echo password=$(pass Cloud/GitHub/fredcwells | grep $Token | awk '{print $NF}')
