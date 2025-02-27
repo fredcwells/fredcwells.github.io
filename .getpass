@@ -1,3 +1,5 @@
 #!/bin/bash
 
-printf "%s" $(pass Cloud/GitHub/fredcwells | grep Token1 | awk '{print $NF}')
+Token=Token1
+
+pass Cloud/GitHub/fredcwells | grep $Token | awk '{print $NF}'
