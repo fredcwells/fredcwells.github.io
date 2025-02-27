@@ -1,0 +1,3 @@
+#!/bin/bash
+
+printf "%s" $(pass Cloud/GitHub/fredcwells | grep Token1 | awk '{print $NF}')
