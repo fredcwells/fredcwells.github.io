@@ -1,5 +1,0 @@
-#!/bin/bash
-
-Token=Token1
-
-echo password=$(pass Cloud/GitHub/fredcwells | grep $Token | awk '{print $NF}')
